@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Sora:wght@300;400&display=swap');
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url('/fonts/sf-pro-display_bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url('/fonts/sf-pro-display_light.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url('/fonts/sf-pro-display_medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url('/fonts/sf-pro-display_regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url('/fonts/sf-pro-display_semibold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url('/fonts/sf-pro-display_thin.woff2') format('woff2');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'sf-pro-display';
+    src: url('/fonts/sf-pro-display_ultralight.woff2') format('woff2');
+    font-weight: 200;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-font-family:'sf-pro-display';
+    --secondary-font-family:'Figtree', sans-serif;
+    --primary-color:#909090;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    max-width: 1120px;
+    margin: auto;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+/* header section  */
+
+.header_section{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_icon{
+    display: none;
+}
+.searchbar{
+    padding: 16px;
+    background-color: #F5F5F5;
+    gap:8px;
+    border-radius: 8px;
+}
+.searchbar{
+    max-width: 433px;
+}
+
+
+.header_navitems{
+    gap:52px;
+}
+.nav_items{
+    color: black;
+    font-family: var(--primary-font-family);
+    font-weight: 500px;
+    line-height: normal;
+    font-style: normal;
+}
+.header_icon{
+    gap:24px;
+}
+
+.search_input_field{
+    color: #656565;
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    border: none;
+    background-color: #F5F5F5;
+}
+
+
+
+
+
+
+
+
+
+
+
