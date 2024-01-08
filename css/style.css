@@ -452,8 +452,17 @@ ul {
     align-items: center;
 }
 
+  /* the slides */
+  .slick-slide {
+      margin: 0 15px;
+  }
 
+  /* the parent */
+  .slick-list {
+      margin: 0 -27px;
+  }
 
+  
 .category_title {
     color: var(--black-color);
     font-family: var(--primary-font-family);
@@ -772,7 +781,7 @@ ul {
 
 .footer_right_content {
     width: 55%;
-    /* border: 1px solid red; */
+    /* border: 1px solid red;    */
 
 }
 
