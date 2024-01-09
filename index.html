@@ -23,6 +23,21 @@
     <!-- header_section -->
 
     <div class="header_section">
+
+        <div class="header_navitems_mobile">
+            <ul class="">
+                <li><a href="" class="nav_items_mobile">Home</a></li>
+                <li><a href="" class="nav_items_mobile">About</a></li>
+                <li><a href="" class="nav_items_mobile">Contact Us</a></li>
+                <li><a href="" class="nav_items_mobile">Blog</a></li>
+            </ul>
+            <div class="menu_icon">
+                <img src="assets/cross-remove-sign-svgrepo-com.svg" alt="" class="cross_sign">
+            </div>
+            
+        </div>
+
+        
         <div class="container">
             <div class="header flex">
                 <div class="header_logo">
@@ -37,7 +52,14 @@
                 <div class="header_navbar flex">
                     <ul class="header_navitems flex">
                         <li><a href="" class="nav_items">Home</a></li>
-                        <li><a href="" class="nav_items">About</a></li>
+                        <li class="service_navitems">
+                            <a href="" class="nav_items">Service</a>
+                            <ul class="dropdown_menu">
+                                <li><a href="" class="service_dropdown_item">Selling</a></li>
+                                <li><a href="" class="service_dropdown_item">Reparing</a></li>
+                                <li><a href="" class="service_dropdown_item">Exchanging</a></li>   
+                            </ul>
+                        </li>
                         <li><a href="" class="nav_items">Contact Us</a></li>
                         <li><a href="" class="nav_items">Blog</a></li>
                     </ul>
@@ -554,6 +576,21 @@
                 // instead of a settings object
             ]
         });
+
+
+
+
+        $(document).ready(function () {
+            $(".menu_icon").click(function () {
+                $(".header_navitems_mobile").toggleClass("main");
+            });
+        });
+
+
+
+        
+
+
 
     </script>
 
