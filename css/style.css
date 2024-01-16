@@ -867,7 +867,106 @@ ul {
 }
 
 
+@media only screen and (max-width:768px){
 
+    .container{
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .category_section{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .header_navbar{
+        display: none;
+    }
+
+    .header_searchbar{
+        display: none;
+    }
+
+    .header_icon{
+        display: none;
+    }
+
+    .menu_icon{
+        display: block;
+    }
+
+
+    .i_phone_14_sec{
+        font-size: 80px;
+    }
+
+    .pro{
+        font-size: 80px;
+    }
+
+
+
+
+
+    .products_section{
+        /* grid-template-columns: repeat(3,1fr); */
+    }
+
+    .product_shopping_section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .shopping_products_container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .big_summer_sale_section{
+        overflow: hidden;
+    }
+    .big_sale_first_img{
+        left: -17%;
+        top: -7%;
+    }
+
+    .big_sale_second_img{
+        bottom: -26%;
+        left: -25%;
+    }
+
+    .big_sale_forth_img{
+        bottom: -8%;
+        right: -14%;
+    }
+    .big_sale_third_img{
+        top: -44%;
+    }
+
+
+    
+    .big_summer_sale_first_title{
+        font-size: 45px;
+    }
+
+    .big_summer_sale__second_title{
+        font-size: 45px;
+    }
+
+
+    .footer_section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+
+    .big_summer_sale_section {
+        background: linear-gradient(100deg, #2E2E2E 42.36%, #000 98.65%);
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+
+
+
+}
 
 
 
@@ -1030,15 +1129,8 @@ ul {
 
 
     /* category_section */
-
-    .category_section {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
-
-
-
-
+    
+    
     .products_section {
         grid-template-columns: 1fr 1fr;
         gap: 16px;
@@ -1112,20 +1204,12 @@ ul {
     }
 
 
-
-
-
-
-
-
-
-
     /* product_shopping_container */
 
-    .product_shopping_section {
+    /* .product_shopping_section {
         padding-top: 56px;
         padding-bottom: 56px;
-    }
+    } */
 
     .shopping_products_container {
         grid-template-columns: 1fr 1fr;
